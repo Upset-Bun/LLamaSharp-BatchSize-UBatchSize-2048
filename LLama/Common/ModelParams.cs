@@ -43,10 +43,10 @@ namespace LLama.Common
         public int? BatchThreads { get; set; }
 
         /// <inheritdoc />
-        public uint BatchSize { get; set; } = 512;
+        public uint BatchSize { get; set; } = 2048;
 
         /// <inheritdoc />
-        public uint UBatchSize { get; set; } = 512;
+        public uint UBatchSize { get; set; } = 2048;
 
         /// <inheritdoc />
         public bool Embeddings { get; set; }
